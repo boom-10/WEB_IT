@@ -1,0 +1,12 @@
+@media screen and (min-width:993px){
+    .x{
+        border-left: 1px solid #dedede;
+        border-right: 1px solid #dedede;
+    }
+    .fugaomax{
+        display: none;
+    }
+    .yincang{
+        display: none;
+    }
+}

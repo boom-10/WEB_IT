@@ -1,0 +1,317 @@
+
+@media screen and (min-width:993px){
+    .x{
+        border-left: 1px solid #dedede;
+        border-right: 1px solid #dedede;
+    }
+}
+
+@media screen and (max-width:992px)
+{
+    .x{
+        border-top: 1px solid #dedede;
+        border-bottom: 1px solid #dedede;
+        height: 200px;
+        
+
+    }
+    
+   
+
+    .y{
+        margin-top: 50px;
+    }
+   .z>li{
+       text-align: center;
+       
+   }
+ 
+}
+@media screen and (max-width:768px){
+    .eight22{
+        display: none;
+    }
+    .eight21{
+        text-align: left;
+        height: 40px;
+        line-height: 40px;
+        border-bottom: 1px solid #dedede;
+        width: 100%;
+    }
+    .zhe{
+        border-top: 1px solid #dedede;
+    }
+    .end {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .nine4{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a {
+    text-decoration: none!important;
+}
+.top {
+    list-style: none;
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+    background-color: pink;
+    width: 100%;
+    font-style: 17px;
+    line-height: 44px;
+    
+}
+.top2 {
+    height: 44px;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    display: inline-block;
+    color: #a6a4a0!important;
+
+}
+.local{
+    background-image:url(img/hero-banner-baker-homepage.image.large_2x.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 600px;
+height: 550px;
+background-color: pink;
+}
+.s1{
+    margin: 0 auto;
+    text-align: center;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;;
+    margin-top: 60px;
+    font-weight: 600;
+    font-size: 40px;
+}
+h1{
+    text-align: center;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;;
+    margin-top: 200px;
+    
+}
+/* 横排 */
+.home{
+    text-align: center;
+    font-style: 17px;
+    line-height: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.home1{
+    width: 68px;
+    height: 68px;
+    vertical-align: middle;
+}
+.home2 {
+    color: #333333;
+}
+/* 2 */
+.second{
+    border-top: 1px solid #dedede;
+    border-bottom: 1px solid #dedede;
+    margin: 20px 20px;
+    text-align: center;
+    padding-bottom: 20px;
+    
+}
+.second2{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.second3{
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+    
+}
+.second4{
+    text-align: center;
+    margin-top: 10px;
+    line-height: 20px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+.second1{
+  
+    padding-bottom: 20px;
+    margin-top: 50px;
+    height: 100px;
+}
+
+.second4>a:hover{
+    text-decoration: underline!important;
+}
+/* 3 */
+.third21{
+    width: 400px;
+    height: 209px;
+}
+.z{
+    margin: 40px auto;
+    width: 80%;
+    background-color: pink;
+    
+   
+}
+.bz{
+    display: flex;
+    justify-content: center;
+}
+.third12{
+    font-size: 20px;
+}
+.third13{
+    font-size: 40px;
+    font-weight: 400;
+}
+.third11{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.third{
+    border-bottom: 1px solid #dedede;
+
+}
+/* 4 */
+.bgi{
+    background-image: url(img/psp-hero-banner-getsupport.image.large_2x.jpg);
+    background-size: 100% 400px;
+    height: 400px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.four1{
+    font-size: 40px;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 10px;
+    position: absolute;
+    top: 150px;
+    left: 300px;
+}
+.four2{
+    font-size: 20px;
+    color:white;
+    width: 400px;
+    position: absolute;
+    top: 220px;
+    left: 300px;
+}
+.four3{
+    font-size: 20px;
+    position: absolute;
+    top: 280px;
+    left: 300px;
+}
+/* 5 */
+.five13{
+    font-size: 30px;
+    font-weight: 400;
+}
+.five11{
+    font-size: 18px;
+    margin-top: 5px;
+}
+.five12{
+    font-size: 18px;
+}
+.six{
+    margin: 40px auto;
+    width: 80%;
+    background-color: pink;
+    text-align: center;
+}
+.six1{
+    font-size: 25px;
+    font-weight: 400;
+}
+.six2{
+    font-size: 18px;
+}
+.seven{
+    margin: 40px auto;
+    width: 80%;
+    background-color: pink;
+}
+.eight121{
+    width: 32px;
+    height: 32px;
+}
+.eight1{
+    text-align: center;
+    padding-top: 20px;
+}
+.eight11{
+    font-style: 12px;
+    color: #333333;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.bottom{
+    background-color: #f2f2f2;
+}
+.eight1{
+    border-bottom: 1px solid #dedede;
+
+}
+.eight12{
+    margin-bottom: 30px;
+}
+.eight21{
+    font-size: 12px;
+    font-weight: 600;
+}
+.eight22>a{
+    font-size: 12px!important;
+    color: #5c5555;
+}
+.nine{
+    font-size: 12px;
+    color: #b99d88;
+}
+.nine1{
+    color: #555555;
+    font-size: 12px;
+    margin-left: 20px;
+}
+.nine3{
+    width: 16px;
+    height: 16px;
+}
+.end{
+    display: flex;
+    justify-content: space-between;
+}
+.nine2{
+    font-size: 12px;
+    color: #b99d88;
+}
+.s3{
+    height: 60px;
+    width: 720px;
+    background-color: pink;
+    margin: 0 auto;
+    
+}
+.s2{
+    width: 60px;
+    height: 60px;
+    border: 1px solid #bbbbbb;
+    border-right: none;
+}
+.s4{
+    width: 650px;
+    height: 60px;
+    border: 1px solid #bbbbbb;
+    border-left: none;
+}

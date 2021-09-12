@@ -1,0 +1,71 @@
+@media screen and (max-width:768px){
+    .eight22{
+        display: none;
+    }
+    .eight21{
+        text-align: left;
+        height: 40px;
+        line-height: 40px;
+        border-bottom: 1px solid #dedede;
+        width: 100%;
+    }
+    .zhe{
+        border-top: 1px solid #dedede;
+    }
+    .end {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .nine4{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .local{
+        display: none;
+    }
+    .phone{
+        width: 100%;
+        height: 300px;
+        display: block;
+        
+    }
+    .fugaomax{
+        margin: 0 auto;
+        display: block;
+        text-align: center;
+    }
+    .top1{
+        display: none;
+    }
+    .yincang{
+        display: block;
+    }
+    .bgi{
+        display: none;
+    }
+    .last1{
+        text-align: left;
+        font-size: 30px;
+        font-weight: 550;
+        margin-left: 20px;
+    }
+    .last2{
+        text-align: left;
+        font-size: 17px;
+        margin-left: 20px;
+        margin-top: 5px;
+    }
+    .last3{
+        text-align: left;
+        font-size: 17px;
+        margin-left: 20px;
+        margin-top: 5px;
+    }
+    .third22{
+        width: 400px;
+    height: 209px;
+    }
+        
+    
+   
+}

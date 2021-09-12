@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .new{
+        width: 475px;
+        height: 230px;
+        background-image: url(wang.jpg);
+        background-size: 475px 230px;
+        /* animation-name: move;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-duration: 2s;
+        animation-delay: 1s; */
+        position: relative;
+        transform: translateY(1000px);
+        float: left;
+    }
+    @keyframes move{
+        0%{
+            transform: translateX(0px);
+        }
+        100%
+        {
+            transform: translateX(1000px);
+        }
+    }
+    button{
+        background-color: white;
+        width: 80px;
+        height: 40px;
+        color: black;
+        
+        border-color: cadetblue;
+    }
+    button:hover{
+        background-color: skyblue;
+    }
+    input{
+        height: 40px;
+        color: black;
+        
+        border-color: cadetblue;
+    }
+    input:hover{
+        height: 40px;
+        color: black;
+       
+        border-color: cadetblue;
+    }
+    div{
+       position: absolute;
+        width: 100%;
+        height: 1000px;
+    }
+</style>
+<body>
+   
+    <input type="text" value="" placeholder="还上计导？">
+    <button>showtime</button>
+    <div>
+        
+    </div>
+
+    <script>
+        var div = document.querySelector('div');
+        var btn = document.querySelector('button');
+        var ipt = document.querySelector('input');
+        btn.onclick = function() 
+        {
+            div.innerHTML = '';
+            for (let i= 0; i < ipt.value; i++)
+            {
+               div.innerHTML += '<p class="new"></p>' ;
+               }
+               
+               var pa =document.querySelectorAll('p');
+              for (let j= 0; j < ipt.value; j++)
+              {
+                setTimeout(myMove,1000*j);
+               function myMove() {
+               var pos = 0;
+               var id = setInterval(frame, 5);
+               function frame() {
+        if (pos ==  1000) {
+             clearInterval(id);
+        } else {
+             pos++; 
+             pa[j].style.bottom = pos + 'px'; 
+        }
+     }
+}
+              }
+        }
+
+        
+       
+    </script>
+</body>
+</html>

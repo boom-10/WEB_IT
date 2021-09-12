@@ -1,0 +1,29 @@
+@media screen and (max-width:992px)
+{
+    .x{
+        border-top: 1px solid #dedede;
+        border-bottom: 1px solid #dedede;
+        height: 200px;
+        
+
+    }
+    .phone{
+        display: none;
+    }
+   
+
+    .y{
+        margin-top: 50px;
+    }
+   .z>li{
+       text-align: center;
+       
+   }
+   .fugaomax{
+       display: none;
+   }
+   .yincang{
+       display: none;
+   }
+ 
+}

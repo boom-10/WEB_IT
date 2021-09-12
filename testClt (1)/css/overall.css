@@ -1,0 +1,470 @@
+p {
+    margin-bottom: 0px;
+}
+
+.Navbar {
+    z-index: 100000;
+    position: absolute;
+}
+
+.bg {
+    width: 1920px;
+    height: 22.5vw;
+    background-size: 1920px 500px;
+}
+
+.bg img {
+    /* width: 70vw; */
+    width: 100vw;
+    height: 22.5vw;
+    /* margin-left: 14.8vw; */
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+li {
+    list-style: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.homepage-container {
+    margin: 0 auto;
+    width: 1314px;
+    box-shadow: 2px 2px 20px 2px rgba(0, 0, 0, 0.3);
+    padding-top: 47px;
+}
+
+.list-style {
+    list-style: none;
+}
+
+
+/* .d-flex{
+  display: flex;
+} */
+
+.d-inblock {
+    display: inline-block;
+}
+
+.d-f {
+    display: flex;
+    position: relative;
+    z-index: 10;
+}
+
+.d-n {
+    display: none;
+}
+
+.d-b {
+    display: block !important;
+}
+
+
+/* css初始化 start */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+em,
+i {
+    font-style: normal;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+button {
+    cursor: pointer;
+}
+
+textarea {
+    outline: none;
+    border: none;
+    overflow-y: visible;
+    resize: none;
+}
+
+button,
+input {
+    font-family: Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB, "\5B8B\4F53", sans-serif;
+    /* 默认黑色边框 */
+    border: 0;
+    outline: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+.hide,
+.none {
+    display: none;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    clear: both;
+    display: block;
+    content: ".";
+    height: 0;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+
+/* css初始化 end */
+
+
+/* 全局CSS start */
+
+.style-lightBlue {
+    color: #024897;
+}
+
+.style-green {
+    color: #659274;
+}
+
+.style-white {
+    color: #fff !important;
+}
+
+.style-black {
+    color: #000;
+}
+
+.style-grey {
+    color: #a7a6f0 !important;
+}
+
+.style-blue {
+    color: #0F228B !important;
+}
+
+.bg-black {
+    background: #21262c;
+}
+
+.bg-grey {
+    background-color: #E9EBF5;
+}
+
+.bg-gblue {
+    background-color: #DDE0F0;
+}
+
+.bg-lblue {
+    background-color: #6e8fbe;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.bg-blue {
+    background-color: #0F228B;
+}
+
+
+/* 字体大小 strat */
+
+.fs-5 {
+    font-size: 0.26vw;
+}
+
+.fs-7 {
+    font-size: 0.365vw;
+}
+
+.fs-8 {
+    font-size: 0.417vw;
+}
+
+.fs-9 {
+    font-size: 0.469vw;
+}
+
+.fs-10 {
+    font-size: 0.521vw;
+}
+
+.fs-12 {
+    font-size: 0.625vw;
+}
+
+.fs-14 {
+    font-size: 0.729vw;
+}
+
+.fs-15 {
+    font-size: 0.781vw;
+}
+
+.fs-16 {
+    font-size: 0.833vw;
+}
+
+.fs-17 {
+    font-size: 0.885vw;
+}
+
+.fs-18 {
+    font-size: 0.938vw;
+}
+
+.fs-20 {
+    font-size: 1.25vw;
+}
+
+.fs-22 {
+    font-size: 1.146vw;
+}
+
+.fs-23 {
+    font-size: 1.198vw;
+}
+
+.fs-24 {
+    font-size: 1.25vw;
+}
+
+.fs-26 {
+    font-size: 1.354vw;
+}
+
+.fs-30 {
+    font-size: 1.563vw;
+}
+
+.fs-45 {
+    font-size: 2.344vw;
+}
+
+.fs-48 {
+    font-size: 2.5vw;
+}
+
+
+/* 字体大小 end */
+
+
+/* 行高 start */
+
+.lh-20 {
+    line-height: 20px;
+}
+
+.lh-30 {
+    line-height: 30px;
+}
+
+.lh-33 {
+    line-height: 33px;
+}
+
+.lh-35 {
+    line-height: 35px;
+}
+
+.lh-50 {
+    line-height: 50px;
+}
+
+.lh-66 {
+    line-height: 66px;
+}
+
+.lh-70 {
+    line-height: 70px;
+}
+
+
+/* 行高 end */
+
+
+/* 字重 start */
+
+.fw-l {
+    font-weight: 300;
+}
+
+.fw-n {
+    font-weight: 400;
+}
+
+.fw-b {
+    font-weight: bold;
+}
+
+
+/* 字重 end */
+
+
+/* 字体类型 start */
+
+.style-impact {
+    font-family: impact;
+}
+
+
+/* 字体类型 end */
+
+.w {
+    width: 1475px;
+    margin: 0 auto;
+}
+
+.p-r {
+    position: relative;
+}
+
+.c-p {
+    cursor: pointer;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.dot13 {
+    width: 13px;
+    height: 13px;
+    border-radius: 6.5px;
+    background-color: #0F228B;
+}
+
+.dot16 {
+    margin-right: 23px;
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    background-color: #0F228B;
+}
+
+.d-flex {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+li {
+    list-style: none;
+}
+
+.pageDivision {
+    padding-top: 58px;
+    display: flex;
+    justify-content: center;
+}
+
+.pageDivision ul {
+    display: flex;
+    align-items: center;
+}
+
+.pageDivision ul li {
+    font-weight: 500 !important;
+    display: inline-block;
+    height: 28px;
+    line-height: 28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.pageDivision .content2 .switch {
+    height: 28px;
+    background: #003E8C;
+    box-shadow: 1px 1px 4px 0px rgba(76, 76, 76, 0.41);
+    border-radius: 14px;
+    font-size: 16px;
+    font-family: Microsoft YaHei UI;
+    font-weight: 300;
+    color: #ffffff;
+    line-height: 28px;
+    cursor: pointer;
+}
+
+.pageDivision .content2 .pre {
+    margin-right: 42px;
+}
+
+.pageDivision .content2 .switchButton {
+    margin-left: 12px;
+}
+
+.pageDivision .content2 .next {
+    margin-left: 12px;
+}
+
+.pageDivision .content2 .num {
+    margin-right: 20px;
+    height: 28px;
+    font-size: 24px;
+    font-family: Microsoft YaHei UI;
+    font-weight: bold;
+    color: #666666;
+    line-height: 28px;
+}
+
+.pageDivision .content2 input {
+    width: 46px;
+    height: 23px;
+    padding-left: 5px;
+    background: #ffffff;
+    box-shadow: 0px 0px 5px 0px rgba(51, 51, 51, 0.42);
+    border-radius: 8px;
+    font-size: 24px;
+    font-family: Microsoft YaHei UI;
+    font-weight: bold;
+    color: #666666;
+    line-height: 28px;
+}
+
+.pageDivision .content2 .switch {
+    padding: 5px 10px;
+}
