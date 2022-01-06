@@ -73,37 +73,48 @@ if (show == "true") {
     var t = 0;
     // 强行显示数组
     var dbArr = [];
-    console.log(spans); 
-	{
-        while (spans[t].innerHTML.indexOf("姓名") == -1 && t <= ps.length - 1) {
+    console.log(spans); {
+        while (t <= spans.length- 1 && spans[t].innerHTML.indexOf("姓名") == -1) {
             t++;
         }
-        eraseArr.push(spans[t]);
+        if(t != spans.length) {
+            eraseArr.push(spans[t]);
+        }
         var t = 0;
-        while (spans[t].innerHTML.indexOf("职称") == -1 && t <= ps.length - 1) {
+        while (t <= spans.length- 1 && spans[t].innerHTML.indexOf("职称") == -1) {
             t++;
         }
-        eraseArr.push(spans[t]);
+        if(t != spans.length) {
+            eraseArr.push(spans[t]);
+        }
         var t = 0;
-        while (spans[t].innerHTML.indexOf("邮箱") == -1 && t <= ps.length - 1) {
+        while (t <= spans.length- 1 && spans[t].innerHTML.indexOf("邮箱") == -1) {
             t++;
         }
-        eraseArr.push(spans[t]);
+        if(t != spans.length) {
+            eraseArr.push(spans[t]);
+        }
         var t = 0;
-        while (spans[t].innerHTML.indexOf("办公室") == -1 && t <= ps.length - 1) {
+        while (t <= spans.length- 1 && spans[t].innerHTML.indexOf("办公室") == -1) {
             t++;
         }
-        eraseArr.push(spans[t]);
+        if(t != spans.length) {
+            eraseArr.push(spans[t]);
+        }
         var t = 0;
-        while (spans[t].innerHTML.indexOf("研究方向") == -1 && t <= ps.length - 1) {
+        while (t <= spans.length- 1 && spans[t].innerHTML.indexOf("研究方向") == -1) {
             t++;
         }
-        eraseArr.push(spans[t]);
+        if(t != spans.length) {
+            eraseArr.push(spans[t]);
+        }
         var t = 0;
-        while (spans[t].innerHTML.indexOf("办公室电话") == -1 && t <= ps.length - 1) {
+        while (t <= spans.length- 1 && spans[t].innerHTML.indexOf("办公室电话") == -1) {
             t++;
         }
-        eraseArr.push(spans[t]);
+        if(t != spans.length) {
+            eraseArr.push(spans[t]);
+        }
     } {
         var t = 0;
         while (fonts[t] != undefined && fonts[t].innerHTML.indexOf("姓名") == -1) {
@@ -148,7 +159,10 @@ if (show == "true") {
             eraseArr.push(fonts[t]);
         }
     }
-    console.log("eraseArr：", eraseArr);
+
+
+    console.log("eraseArr：",eraseArr);
+    console.log("呵呵呵");
     // 删除他们的父元素
     for (let i = 0; i <= eraseArr.length - 1; i++) {
         if (eraseArr[i].parentElement.className.indexOf("Article_Content") >= 0) {
@@ -206,26 +220,37 @@ if (show == "true") {
     if (spans[t] != undefined) {
         styleArr.push(spans[t]);
     }
+    var t = 0;
+    while (spans[t] != undefined && spans[t].innerHTML.indexOf("研究生指导") == -1) {
+        t++;
+    }
+    // spans[t].parentElement.style.display = "none";
+    if (spans[t] != undefined) {
+        styleArr.push(spans[t]);
+    }
     console.log("styleArr：", styleArr);
 
     for (let i = 0; i <= styleArr.length - 1; i++) {
         // styleArr[i].parentElement.style.display = "none"
         styleArr[i].parentElement.classList.add("header");
         styleArr[i].classList.add("header");
-		while(styleArr[i].classList.indexOf("cjk") == -1) {
-			styleArr[i] = styleArr[i].parentElement;
-		}
-		
-        var t = 0;
-        // console.log(styleArr[i].parentElement.childNodes);
-        while (styleArr[i].parentElement.childNodes[t]) {
-            console.log(t);
-            if (styleArr[i].parentElement.childNodes[t].classList != undefined) {
-                styleArr[i].parentElement.childNodes[t].classList.add("header")
-            }
-            t++;
+        // 当classList只有一个class，classList不是字符串。强转为字符串：indoxOf函数只能用于字符串
+        while ((styleArr[i].parentElement.classList + "").indexOf("Article_Content") != -1) {
+            styleArr[i] = styleArr[i].parentElement;
         }
-        var childs = styleArr[i].childNodes;
+        styleArr[i].classList.add("header");
+
+
+        /*  var t = 0;
+         // console.log(styleArr[i].parentElement.childNodes);
+         while (styleArr[i].parentElement.childNodes[t]) {
+             console.log(t);
+             if (styleArr[i].parentElement.childNodes[t].classList != undefined) {
+                 styleArr[i].parentElement.childNodes[t].classList.add("header")
+             }
+             t++;
+         }
+         var childs = styleArr[i].childNodes; */
     }
 
     // 为字体添加样式
@@ -343,7 +368,7 @@ if (show == "true") {
 // 		while(styleArr[i].classList.indexOf("cjk") == -1) {
 // 			styleArr[i] = styleArr[i].parentElement;
 // 		}
-		
+
 //         var t = 0;
 //         // console.log(styleArr[i].parentElement.childNodes);
 //         while (styleArr[i].parentElement.childNodes[t]) {
@@ -355,3 +380,5 @@ if (show == "true") {
 //         }
 //         var childs = styleArr[i].childNodes;
 //     }
+
+// 更改标题样式。

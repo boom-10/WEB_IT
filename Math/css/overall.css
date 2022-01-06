@@ -1,3 +1,8 @@
+body {
+    width: 100vw;
+    overflow: hidden;
+}
+
 p {
     margin-bottom: 0px;
 }
@@ -8,14 +13,14 @@ p {
 }
 
 .bg {
-    width: 1920px;
+    width: 100vw;
     height: 22.5vw;
-    background-size: 1920px 500px;
+    background-size: 100vw 26.042vw;
 }
 
 .bg img {
     /* width: 70vw; */
-    width: 100vw;
+    width: 100vw !important;
     height: 22.5vw;
     /* margin-left: 14.8vw; */
 }
@@ -40,7 +45,7 @@ li {
 
 .homepage-container {
     margin: 0 auto;
-    width: 1314px;
+    width: 1314.01px;
     box-shadow: 2px 2px 20px 2px rgba(0, 0, 0, 0.3);
     padding-top: 47px;
 }
@@ -287,31 +292,31 @@ input[type="number"] {
 /* 行高 start */
 
 .lh-20 {
-    line-height: 20px;
+    line-height: 1.042vw;
 }
 
 .lh-30 {
-    line-height: 30px;
+    line-height: 1.563vw;
 }
 
 .lh-33 {
-    line-height: 33px;
+    line-height: 1.719vw;
 }
 
 .lh-35 {
-    line-height: 35px;
+    line-height: 1.823vw;
 }
 
 .lh-50 {
-    line-height: 50px;
+    line-height: 2.604vw;
 }
 
 .lh-66 {
-    line-height: 66px;
+    line-height: 3.438vw;
 }
 
 .lh-70 {
-    line-height: 70px;
+    line-height: 3.646vw;
 }
 
 
@@ -346,7 +351,7 @@ input[type="number"] {
 /* 字体类型 end */
 
 .w {
-    width: 1475px;
+    width: 76.823vw;
     margin: 0 auto;
 }
 
@@ -368,17 +373,17 @@ table {
 }
 
 .dot13 {
-    width: 13px;
-    height: 13px;
-    border-radius: 6.5px;
+    width: 0.677vw;
+    height: 0.677vw;
+    border-radius: 0.339vw;
     background-color: #0F228B;
 }
 
 .dot16 {
-    margin-right: 23px;
-    width: 16px;
-    height: 16px;
-    border-radius: 8px;
+    margin-right: 1.198vw;
+    width: 0.833vw;
+    height: 0.833vw;
+    border-radius: 0.417vw;
     background-color: #0F228B;
 }
 
@@ -396,7 +401,7 @@ li {
 }
 
 .pageDivision {
-    padding-top: 58px;
+    padding-top: 3.021vw;
     display: flex;
     justify-content: center;
 }
@@ -409,62 +414,62 @@ li {
 .pageDivision ul li {
     font-weight: 500 !important;
     display: inline-block;
-    height: 28px;
-    line-height: 28px;
+    height: 1.458vw;
+    line-height: 1.458vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
 .pageDivision .content2 .switch {
-    height: 28px;
+    height: 1.458vw;
     background: #003E8C;
     box-shadow: 1px 1px 4px 0px rgba(76, 76, 76, 0.41);
-    border-radius: 14px;
-    font-size: 16px;
+    border-radius: 0.729vw;
+    font-size: 0.833vw;
     font-family: Microsoft YaHei UI;
     font-weight: 300;
     color: #ffffff;
-    line-height: 28px;
+    line-height: 1.458vw;
     cursor: pointer;
 }
 
 .pageDivision .content2 .pre {
-    margin-right: 42px;
+    margin-right: 2.188vw;
 }
 
 .pageDivision .content2 .switchButton {
-    margin-left: 12px;
+    margin-left: 0.625vw;
 }
 
 .pageDivision .content2 .next {
-    margin-left: 12px;
+    margin-left: 0.625vw;
 }
 
 .pageDivision .content2 .num {
-    margin-right: 20px;
-    height: 28px;
-    font-size: 24px;
+    margin-right: 1.042vw;
+    height: 1.458vw;
+    font-size: 1.25vw;
     font-family: Microsoft YaHei UI;
     font-weight: bold;
     color: #666666;
-    line-height: 28px;
+    line-height: 1.458vw;
 }
 
 .pageDivision .content2 input {
-    width: 46px;
-    height: 23px;
-    padding-left: 5px;
+    width: 2.396vw;
+    height: 1.198vw;
+    padding-left: 0.26vw;
     background: #ffffff;
     box-shadow: 0px 0px 5px 0px rgba(51, 51, 51, 0.42);
-    border-radius: 8px;
-    font-size: 24px;
+    border-radius: 0.417vw;
+    font-size: 1.25vw;
     font-family: Microsoft YaHei UI;
     font-weight: bold;
     color: #666666;
-    line-height: 28px;
+    line-height: 1.458vw;
 }
 
 .pageDivision .content2 .switch {
-    padding: 5px 10px;
+    padding: 0.26vw 0.521vw;
 }

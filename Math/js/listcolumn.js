@@ -13,6 +13,17 @@ let mathTeachers = [{
             office: '数学楼513'
         },
         {
+            img: '',
+            name: '张正阳',
+            job: '讲师',
+            number: '',
+            researchArea: '常微分方程，生物数学，种群动力学',
+            tele: '',
+            email: 'zhangzhengyang@ouc.edu.cn',
+            department: '数学系',
+            office: '数学楼208'
+        },
+        {
             img: 'http://math.ouc.edu.cn/_upload/article/images/a1/e4/4ebf7d814ac3b52ca8378ac9b741/c26e5ba2-c71f-4488-8492-bab5ade17adf.jpg',
             name: '陈丕炜',
             job: '副教授（硕士生导师）',
@@ -21,7 +32,7 @@ let mathTeachers = [{
             tele: '',
             email: 'cpw@ouc.edu.cn',
             department: '数学系',
-            office: '数学楼523'
+            office: '数学楼509'
         },
         {
             img: 'http://math.ouc.edu.cn/_upload/article/images/cc/98/741a53ca41c897d8d9deaede2bd4/57b789c4-4e95-41e3-af9b-5d4ecdfc17c1.jpg',
@@ -85,7 +96,7 @@ let mathTeachers = [{
             number: '',
             researchArea: '非线性偏微分方程及其应用',
             tele: '',
-            email: '',
+            email: 'fangzb7777@ouc.edu.cn',
             department: '数学系',
             office: '数学楼'
         },
@@ -107,7 +118,7 @@ let mathTeachers = [{
             number: '',
             researchArea: '应用数学',
             tele: '',
-            email: '',
+            email: 'yaozengshan@ouc.edu.cn',
             department: '数学系',
             office: '数学楼'
         },
@@ -140,7 +151,7 @@ let mathTeachers = [{
             number: '',
             researchArea: '',
             tele: '',
-            email: '',
+            email: 'shuhelei@ouc.edu.cn',
             department: '数学系',
             office: '数学楼'
         },
@@ -308,7 +319,7 @@ let mathTeachers = [{
             number: '',
             researchArea: '函数空间理论、算子理论、泛函分析及其应用、C*-代数及其扩张等',
             tele: '',
-            email: '',
+            email: 'weicg@ouc.edu.cn',
             department: '数学系',
             office: '数学楼'
         },
@@ -321,8 +332,8 @@ let mathTeachers = [{
             researchArea: '模糊数学',
             tele: '',
             email: 'chenwy@ouc.edu.cn',
-            department: '数学系503',
-            office: '数学楼'
+            department: '数学系',
+            office: '数学楼503'
         },
 
         {
@@ -332,7 +343,7 @@ let mathTeachers = [{
             number: '',
             researchArea: '复分析中离散群问题，三角群问题，复动力系统若干问题。',
             tele: '',
-            email: '',
+            email: 'licj@ouc.edu.cn',
             department: '数学系',
             office: '数学楼'
         },
@@ -368,7 +379,7 @@ let mathTeachers = [{
             number: '',
             researchArea: '概率统计、金融数学 ',
             tele: '',
-            email: '',
+            email: 'liubaosheng@ouc.edu.cn',
             department: '数学系',
             office: '数学楼'
         },
@@ -390,9 +401,9 @@ let mathTeachers = [{
             name: '朴大雄',
             job: '教授、博导',
             number: '',
-            researchArea: '',
+            researchArea: '常微分方程与动力系统、数学物理算子谱理论',
             tele: '',
-            email: '',
+            email: 'dxpiao@ouc.edu.cn',
             department: '数学系',
             office: '数学楼'
         },
@@ -416,7 +427,7 @@ let mathTeachers = [{
             number: '',
             researchArea: '格上拓扑学与非经典推理',
             tele: '',
-            email: '',
+            email: 'jmfang@ouc.edu.cn',
             department: '数学系',
             office: '数学楼'
         },
@@ -426,12 +437,12 @@ let mathTeachers = [{
             job: '教授、博导', //职称
             researchArea: '组合数学、孤立子理论', //研究方向
             tele: '', //电话号码
-            email: '', //邮箱
+            email: 'zhaoxq@ouc.edu.cn', //邮箱
             department: '数学系', //系
             office: '数学楼', //办公室，样例：'教学楼208'或'208'
         },
     ]
-    // 计算机系老师信息
+    // 信计老师信息
 let computerTeachers = [{
         img: '',
         name: '曹圣山', //名称
@@ -441,6 +452,15 @@ let computerTeachers = [{
         email: '', //邮箱
         department: '信息与计算科学系', //系
         office: '', //办公室，样例：'教学楼208'或'208'
+    }, {
+        img: '',
+        name: '谷亚光', //名称
+        job: '', //职称
+        researchArea: '偏微分方程数值解', //研究方向
+        tele: '', //电话号码
+        email: 'guyaguang@ouc.edu.cn', //邮箱
+        department: '信息与计算科学系', //系
+        office: '教学楼208', //办公室，样例：'教学楼208'或'208'
     },
     {
         img: 'http://math.ouc.edu.cn/_upload/article/images/a1/e4/4ebf7d814ac3b52ca8378ac9b741/fcac58e7-865f-45b0-8ed1-cb83a619d798.jpg',
@@ -448,7 +468,7 @@ let computerTeachers = [{
         job: '讲师', //职称
         researchArea: '从事图论和组合优化方面的研究工作。', //研究方向
         tele: '', //电话号码
-        email: '', //邮箱
+        email: 'caoyongchang@ouc.edu.cn', //邮箱
         department: '信息与计算科学系', //系
         office: '', //办公室，样例：'教学楼208'或'208'
     },
@@ -458,7 +478,7 @@ let computerTeachers = [{
         job: '讲师', //职称
         researchArea: '分布参数系统参数辨识；偏微分方程反问题。', //研究方向
         tele: '', //电话号码
-        email: '', //邮箱
+        email: 'changjinde@ouc.edu.cn', //邮箱
         department: '信息与计算科学系', //系
         office: '', //办公室，样例：'教学楼208'或'208'
     },
@@ -468,7 +488,7 @@ let computerTeachers = [{
         job: '讲师', //职称
         researchArea: '微分方程数值解；守恒律方程的相变问题', //研究方向
         tele: '', //电话号码
-        email: '', //邮箱
+        email: 'cgchen@ouc.edu.cn', //邮箱
         department: '信息与计算科学系', //系
         office: '', //办公室，样例：'教学楼208'或'208'
     },
@@ -486,9 +506,9 @@ let computerTeachers = [{
         img: 'http://math.ouc.edu.cn/_upload/article/images/a1/e4/4ebf7d814ac3b52ca8378ac9b741/6d3cc4d2-c066-4681-8fe6-cd72e98ebb55.jpg',
         name: '丁双双', //名称
         job: '副教授', //职称
-        researchArea: '', //研究方向
+        researchArea: '高等代数、分析与代数实践', //研究方向
         tele: '', //电话号码
-        email: '', //邮箱
+        email: 'dss@ouc.edu.cn', //邮箱
         department: '信息与计算科学系', //系
         office: '', //办公室，样例：'教学楼208'或'208'
     },
@@ -508,7 +528,7 @@ let computerTeachers = [{
         job: '讲师', //职称
         researchArea: '', //研究方向
         tele: '', //电话号码
-        email: '', //邮箱
+        email: 'sxjm@ouc.edu.cn', //邮箱
         department: '信息与计算科学系', //系
         office: '', //办公室，样例：'教学楼208'或'208'
     },
@@ -538,7 +558,7 @@ let computerTeachers = [{
         job: '教授、博导', //职称
         researchArea: '1. Theory and Applications of Functional Differential  Equation;2. Theory and Applications of Large-Scale Dynamic System;3.  Theory and Applications of Variable Structure Control;4. Intelligence  Control Technique.', //研究方向
         tele: '', //电话号码
-        email: '', //邮箱
+        email: 'ccgao@ouc.edu.cn', //邮箱
         department: '信息与计算科学系', //系
         office: '', //办公室，样例：'教学楼208'或'208'
     },
@@ -558,7 +578,7 @@ let computerTeachers = [{
         job: '教授', //职称
         researchArea: '线性与非线性数值代数，图像处理等；', //研究方向
         tele: '', //电话号码
-        email: '', //邮箱
+        email: 'guoxiaoxia@ouc.edu.cn', //邮箱
         department: '信息与计算科学系', //系
         office: '', //办公室，样例：'教学楼208'或'208'
     },
@@ -578,7 +598,7 @@ let computerTeachers = [{
         job: '讲  师', //职称
         researchArea: '数值线性代数、随机算法', //研究方向
         tele: '', //电话号码
-        email: '', //邮箱
+        email: 'xie@ouc.edu.cn', //邮箱
         department: '信息与计算科学系', //系
         office: '', //办公室，样例：'教学楼208'或'208'
     },
@@ -588,7 +608,7 @@ let computerTeachers = [{
         job: '讲师', //职称
         researchArea: '数值逼近。', //研究方向
         tele: '', //电话号码
-        email: '', //邮箱
+        email: 'fenggonglang@ouc.edu.cn', //邮箱
         department: '信息与计算科学系', //系
         office: '', //办公室，样例：'教学楼208'或'208'
     },
@@ -596,9 +616,9 @@ let computerTeachers = [{
         img: 'http://math.ouc.edu.cn/_upload/article/images/a1/e4/4ebf7d814ac3b52ca8378ac9b741/d088a21e-254c-4783-bd07-d9bb765baf6b.jpg',
         name: '李晓敏', //名称
         job: '讲师', //职称
-        researchArea: '', //研究方向
+        researchArea: '偏微分方程数值解', //研究方向
         tele: '', //电话号码
-        email: '', //邮箱
+        email: 'lixiaomin5166@ouc.edu.cn', //邮箱
         department: '信息与计算科学系', //系
         office: '', //办公室，样例：'教学楼208'或'208'
     },
@@ -628,7 +648,7 @@ let computerTeachers = [{
         job: '副教授', //职称
         researchArea: '研究方向为智能计算，主要方向为人工神经网络、控制论', //研究方向
         tele: '', //电话号码
-        email: '', //邮箱
+        email: 'liulonglong@ouc.edu.cn', //邮箱
         department: '信息与计算科学系', //系
         office: '', //办公室，样例：'教学楼208'或'208'
     },
@@ -638,7 +658,7 @@ let computerTeachers = [{
         job: '讲师', //职称
         researchArea: '模糊数学 无线传感器网络', //研究方向
         tele: '', //电话号码
-        email: '', //邮箱
+        email: 'lxd@ouc.edu.cn', //邮箱
         department: '信息与计算科学系', //系
         office: '', //办公室，样例：'教学楼208'或'208'
     },
@@ -648,7 +668,7 @@ let computerTeachers = [{
         job: '教授、博导', //职称
         researchArea: '数值代数。', //研究方向
         tele: '', //电话号码
-        email: '', //邮箱
+        email: 'liuxinguo@ouc.edu.cn', //邮箱
         department: '信息与计算科学系', //系
         office: '', //办公室，样例：'教学楼208'或'208'
     },
@@ -658,7 +678,7 @@ let computerTeachers = [{
         job: '讲师', //职称
         researchArea: '1. 组合优化算法及其应用2. 船运及海事物流研究：船运航线及网络设计中的建模及算法研究.', //研究方向
         tele: '', //电话号码
-        email: '', //邮箱
+        email: 'kewave@ouc.edu.cn', //邮箱
         department: '信息与计算科学系', //系
         office: '', //办公室，样例：'教学楼208'或'208'
     },
@@ -678,7 +698,7 @@ let computerTeachers = [{
         job: '讲师', //职称
         researchArea: '大系统稳定性分析 、海洋环流动力学', //研究方向
         tele: '', //电话号码
-        email: '', //邮箱
+        email: 'qujingru@ouc.edu.cn', //邮箱
         department: '信息与计算科学系', //系
         office: '', //办公室，样例：'教学楼208'或'208'
     },
@@ -688,7 +708,7 @@ let computerTeachers = [{
         job: '讲师', //职称
         researchArea: '组合数学', //研究方向
         tele: '', //电话号码
-        email: '', //邮箱
+        email: 'ellenqu@ouc.edu.cn', //邮箱
         department: '信息与计算科学系', //系
         office: '', //办公室，样例：'教学楼208'或'208'
     },
@@ -698,7 +718,7 @@ let computerTeachers = [{
         job: '讲师', //职称
         researchArea: '滑模变结构控制理论、海浪数据同化', //研究方向
         tele: '', //电话号码
-        email: '', //邮箱
+        email: 'rqf@ouc.edu.cn', //邮箱
         department: '信息与计算科学系', //系
         office: '', //办公室，样例：'教学楼208'或'208'
     },
@@ -708,7 +728,7 @@ let computerTeachers = [{
         job: '副教授', //职称
         researchArea: '数值模拟、海洋科学中的数学模型', //研究方向
         tele: '', //电话号码
-        email: '', //邮箱
+        email: 'shixinhui3071@ouc.edu.cn', //邮箱
         department: '信息与计算科学系', //系
         office: '', //办公室，样例：'教学楼208'或'208'
     },
@@ -778,7 +798,7 @@ let computerTeachers = [{
         job: '讲师', //职称
         researchArea: '智能信息处理、多值逻辑、逻辑代数及不确定性推理', //研究方向
         tele: '', //电话号码
-        email: '', //邮箱
+        email: 'wangxuefang@ouc.edu.cn', //邮箱
         department: '信息与计算科学系', //系
         office: '', //办公室，样例：'教学楼208'或'208'
     },
@@ -788,7 +808,7 @@ let computerTeachers = [{
         job: '', //职称
         researchArea: '', //研究方向
         tele: '', //电话号码
-        email: '', //邮箱
+        email: 'wangxuefeng@ouc.edu.cn', //邮箱
         department: '信息与计算科学系', //系
         office: '', //办公室，样例：'教学楼208'或'208'
     },
@@ -808,7 +828,7 @@ let computerTeachers = [{
         job: '教授', //职称
         researchArea: '偏微分方程数值方法及应用研究。', //研究方向
         tele: '', //电话号码
-        email: '', //邮箱
+        email: 'shusenxie@ouc.edu.cn', //邮箱
         department: '信息与计算科学系', //系
         office: '', //办公室，样例：'教学楼208'或'208'
     },
@@ -818,7 +838,7 @@ let computerTeachers = [{
         job: '讲师', //职称
         researchArea: 'Hilbert空间上的控制理论，数值分析等', //研究方向
         tele: '', //电话号码
-        email: '', //邮箱
+        email: 'xuxiaoping@ouc.edu.cn', //邮箱
         department: '信息与计算科学系', //系
         office: '', //办公室，样例：'教学楼208'或'208'
     },
@@ -826,7 +846,7 @@ let computerTeachers = [{
         img: 'http://math.ouc.edu.cn/_upload/article/images/a1/e4/4ebf7d814ac3b52ca8378ac9b741/9985422e-b3bd-4425-a313-67d7bdf6d40a.jpg',
         name: '徐鑫', //名称
         job: '讲师', //职称
-        researchArea: '●  偏微分方程的适定性●  流体力学方程的奇异极限●  大气海洋模型的数学理论', //研究方向
+        researchArea: '偏微分方程的数学理论、大气海洋模型', //研究方向
         tele: '', //电话号码
         email: 'xx@ouc.edu.cn', //邮箱
         department: '信息与计算科学系', //系
@@ -838,7 +858,7 @@ let computerTeachers = [{
         job: '讲师', //职称
         researchArea: '线性代数 微积分 线性代数基础 高等微积分', //研究方向
         tele: '', //电话号码
-        email: '', //邮箱
+        email: 'ycx@ouc.edu.cn', //邮箱
         department: '信息与计算科学系', //系
         office: '', //办公室，样例：'教学楼208'或'208'
     },
@@ -898,7 +918,7 @@ let computerTeachers = [{
         job: '教授、博导', //职称
         researchArea: '组合数学、孤立子理论', //研究方向
         tele: '', //电话号码
-        email: '', //邮箱
+        email: 'zhaoxq@ouc.edu.cn', //邮箱
         department: '信息与计算科学系', //系
         office: '', //办公室，样例：'教学楼208'或'208'
     },
@@ -908,7 +928,7 @@ let computerTeachers = [{
         job: '副教授、硕士生导师', //职称
         researchArea: '图形图像处理方面的理论和算法', //研究方向
         tele: '', //电话号码
-        email: '', //邮箱
+        email: 'zhaoyong@ouc.edu.cn', //邮箱
         department: '信息与计算科学系', //系
         office: '', //办公室，样例：'教学楼208'或'208'
     },
@@ -932,8 +952,8 @@ var leaders = [{
         img: 'http://math.ouc.edu.cn/_upload/article/images/aa/2b/4748e58f499d81b18fc7bb131800/9d8ac2cf-b98d-408a-ad71-0d1c06e6a3c1.jpg',
         name: '于泳'
     }, {
-        img: 'http://math.ouc.edu.cn/_upload/article/images/aa/2b/4748e58f499d81b18fc7bb131800/951a923e-c916-40cd-ad92-a8e21c21c071.jpg',
-        name: '张临杰'
+        img: 'http://math.ouc.edu.cn/_upload/article/images/a1/e4/4ebf7d814ac3b52ca8378ac9b741/c71e4149-e50e-4fea-b804-e2025b10c0ca.jpg',
+        name: '刘彬'
     }, {
         img: 'http://math.ouc.edu.cn/_upload/article/images/aa/2b/4748e58f499d81b18fc7bb131800/f863f184-a105-4b2c-ae01-fb125defc659.jpg',
         name: '赵洪庆'
@@ -954,6 +974,9 @@ var leaders = [{
 var partyLeaders = [{
     img: 'http://math.ouc.edu.cn/_upload/article/images/aa/2b/4748e58f499d81b18fc7bb131800/5b6e548b-29aa-454a-bc3d-166c219cb7a4.jpg',
     name: '张丽'
+}, {
+    img: 'http://math.ouc.edu.cn/_upload/article/images/a1/e4/4ebf7d814ac3b52ca8378ac9b741/34f8ea1a-4f9d-468a-add1-050ebaeff7dd.jpg',
+    name: '谢树森'
 }, {
     img: 'http://math.ouc.edu.cn/_upload/article/images/aa/2b/4748e58f499d81b18fc7bb131800/81d9dec8-f1a9-4ec6-8d8d-6bcefc276ee3.jpg',
     name: '于泳'
@@ -1053,7 +1076,7 @@ function show() {
                 nameArray[m] = nameFather[m].firstElementChild.innerHTML;
                 if (url.indexOf("sxx") >= 0) {
                     let n = 0;
-                    while (!(nameArray[m].indexOf(mathTeachers[n].name) >= 0) && n <= mathTeachers.length - 1) {
+                    while (n <= mathTeachers.length - 1 && !(nameArray[m].indexOf(mathTeachers[n].name) >= 0)) {
                         n++;
                     }
                     curTeaArray[m] = mathTeachers[n];
@@ -1062,15 +1085,15 @@ function show() {
                 } else {
                     let n = 0;
                     console.log(nameArray[m]);
-                    while (!(nameArray[m].indexOf(computerTeachers[n].name) >= 0) && n <= computerTeachers.length - 1) {
+                    while (n <= computerTeachers.length - 1 && !(nameArray[m].indexOf(computerTeachers[n].name) >= 0)) {
                         n++;
                     }
                     curTeaArray[m] = computerTeachers[n];
                     // console.log(nameArray[m], computerTeachers[n].name, curTeaArray[m]);
                 }
             }
-            // console.log("nameArray:", nameArray);
-            // console.log("curTeaArr1:", curTeaArray);
+            console.log("nameArray:", nameArray);
+            console.log("curTeaArr1:", curTeaArray);
 
             for (let i = 0; i <= father.length - 1; i++) {
                 count = 0;
@@ -1135,55 +1158,82 @@ function show() {
 
             // 开始输入数据
             let mathNum = mathTeachers.length; //数学教师的总人数
+            console.log("数学系数组人数：", mathTeachers.length);
+            console.log("father 长度", father.length);
             let computerNum = computerTeachers.length;
             if (url.indexOf("sxx") >= 0) {
-                if (cur_page * 8 <= mathNum) {
-                    for (i = 0; i <= 7; i++) {
+                /*  if (cur_page * 8 <= mathNum) {
+                     for (i = 0; i <= 7; i++) {
+                         if (curTeaArray[i] != undefined) {
+                             imgFather[i].children[0].src = curTeaArray[i].img;
+                             tName[i].innerHTML = curTeaArray[i].name;
+                             tJobs[i].innerHTML = curTeaArray[i].job;
+                             tResearch[i].innerHTML = curTeaArray[i].researchArea;
+                             tEmail[i].innerHTML = curTeaArray[i].email;
+                         }
+
+                         // console.log(i, tName[i], curTeaArray[i]);
+                     }
+                 } else {
+                     for (i = 0; i <= mathNum - (cur_page - 1) * 8 - 1; i++) {
+                         if (curTeaArray[i] != undefined) {
+                             imgFather[i].children[0].src = curTeaArray[i].img;
+                             tName[i].innerHTML = curTeaArray[i].name;
+                             tJobs[i].innerHTML = curTeaArray[i].job;
+                             tResearch[i].innerHTML = curTeaArray[i].researchArea;
+                             tEmail[i].innerHTML = curTeaArray[i].email;
+                         }
+
+                         // console.log(i, tName[i], curTeaArray[i]);
+
+                     }
+                 } */
+                for (i = 0; i <= father.length - 1; i++) {
+                    if (curTeaArray[i] != undefined) {
                         imgFather[i].children[0].src = curTeaArray[i].img;
                         tName[i].innerHTML = curTeaArray[i].name;
                         tJobs[i].innerHTML = curTeaArray[i].job;
                         tResearch[i].innerHTML = curTeaArray[i].researchArea;
                         tEmail[i].innerHTML = curTeaArray[i].email;
-
-                        // console.log(i, tName[i], curTeaArray[i]);
-                    }
-                } else {
-                    for (i = 0; i <= mathNum - (cur_page - 1) * 8 - 1; i++) {
-                        imgFather[i].children[0].src = curTeaArray[i].img;
-                        tName[i].innerHTML = curTeaArray[i].name;
-                        tJobs[i].innerHTML = curTeaArray[i].job;
-                        tResearch[i].innerHTML = curTeaArray[i].researchArea;
-                        tEmail[i].innerHTML = curTeaArray[i].email;
-
-                        // console.log(i, tName[i], curTeaArray[i]);
-
                     }
                 }
             } else {
-                if (cur_page * 8 <= computerNum) {
+                /* if (cur_page * 8 <= computerNum) {
                     for (i = 0; i <= 7; i++) {
-                        imgFather[i].children[0].src = curTeaArray[i].img;
-                        tName[i].innerHTML = curTeaArray[i].name;
-                        tJobs[i].innerHTML = curTeaArray[i].job;
-                        tResearch[i].innerHTML = curTeaArray[i].researchArea;
-                        tEmail[i].innerHTML = curTeaArray[i].email;
+                        if (curTeaArray[i] != undefined) {
+                            imgFather[i].children[0].src = curTeaArray[i].img;
+                            tName[i].innerHTML = curTeaArray[i].name;
+                            tJobs[i].innerHTML = curTeaArray[i].job;
+                            tResearch[i].innerHTML = curTeaArray[i].researchArea;
+                            tEmail[i].innerHTML = curTeaArray[i].email;
+                        }
 
                     }
                 } else {
                     for (i = 0; i <= computerNum - (cur_page - 1) * 8 - 1; i++) {
+                        if (curTeaArray[i] != undefined) {
+                            imgFather[i].children[0].src = curTeaArray[i].img;
+                            tName[i].innerHTML = curTeaArray[i].name;
+                            tJobs[i].innerHTML = curTeaArray[i].job;
+                            tResearch[i].innerHTML = curTeaArray[i].researchArea;
+                            tEmail[i].innerHTML = curTeaArray[i].email;
+                        }
+
+                    }
+                } */
+                for (i = 0; i <= father.length - 1; i++) {
+                    if (curTeaArray[i] != undefined) {
                         imgFather[i].children[0].src = curTeaArray[i].img;
                         tName[i].innerHTML = curTeaArray[i].name;
                         tJobs[i].innerHTML = curTeaArray[i].job;
                         tResearch[i].innerHTML = curTeaArray[i].researchArea;
                         tEmail[i].innerHTML = curTeaArray[i].email;
-
                     }
                 }
             }
 
         }
 
-        var Listteacher = document.querySelectorAll('.tResearch');
         // console.log('fuck', Listteacher);
         // console.log(Listteacher);
         // for (var i = 0; i < Listteacher.length; i++) {

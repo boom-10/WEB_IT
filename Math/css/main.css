@@ -1,3 +1,40 @@
+
+.i2 .sub-nav li {
+    width: 50% !important;
+}
+@media screen and (max-width:800px) {
+    .BigImg{
+        display: flex!important;
+    }
+    .blue{
+        display: none!important;
+    }
+    .News{
+        display: flex!important;
+    }
+    .Container{
+        display: flex!important;
+    }
+    .LastContainer{
+        display: flex!important;
+    }
+    .ContainerDiv{
+        display: flex!important;
+    }
+    .wp_nav .nav-item a span.item-name{
+        padding: 0px!important;
+    }
+    .wp_nav .sub-nav .nav-item a{
+        min-width: 0px!important;
+    }
+    .News{
+        padding-top: 6vw!important;
+    }
+}
+body{
+    -webkit-text-size-adjust: 100% !important;
+}
+    
 .i2 .sub-nav li {
     width: 50% !important;
 }
@@ -31,11 +68,6 @@
     margin-top: 1.0417vw;
 }
 
-img {
-    width: 28.698vw;
-    height: 19.635vw;
-}
-
 .Pre {
     width: 2.5vw;
     height: 2.292vw;
@@ -67,6 +99,7 @@ img {
     font-size: 0.677vw;
     font-family: Source Han Sans CN;
     font-weight: normal;
+    text-align: left;
     color: #FFFFFF;
 }
 
@@ -82,6 +115,8 @@ img {
     font-family: Source Han Sans CN;
     font-weight: normal;
     color: #FFFFFF;
+    text-align: left;
+    margin-left: 0.781vw;
     /* line-height: 0.885vw; */
 }
 
@@ -421,7 +456,6 @@ a {
     from {
         opacity: 0;
     }
-
     to {
         opacity: 1;
     }
@@ -431,7 +465,6 @@ a {
     from {
         opacity: 1;
     }
-
     to {
         opacity: 0;
     }
@@ -528,7 +561,8 @@ a {
 }
 
 .wp_nav {
-    margin-left: 15.521vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
     justify-content: space-between;
     align-items: center;
     display: flex;
@@ -540,10 +574,11 @@ a {
 }
 
 .SecondContainer img {
+    display: none;
     color: #d2d2d2;
     width: 13.906vw;
     height: 1.563vw;
-    margin-right: 4.375vw;
+    /* margin-right: 4.375vw; */
 }
 
 .nav-item {
@@ -583,7 +618,6 @@ a {
 .wap_nav :nth-child(8) {
     position: relative;
 }
-
 /* .nav-item .sub-nav {
 position: absolute!important;
 right: 107.002px!important;
@@ -894,7 +928,6 @@ p {
 .clear {
     clear: both;
 }
-
 /* .box {
 position: relative;
 width: 32.813vw;
@@ -1004,7 +1037,6 @@ margin: 5.208vw auto;
     width: 3.281vw;
     height: 2.865vw;
 }
-
 /* <!-- 通知公告style --> */
 
 .actdate {
@@ -1042,8 +1074,8 @@ margin: 5.208vw auto;
     display: flex !important;
     align-items: center !important;
     border-bottom: 0.1042vw solid #C9C9C9 !important;
-    padding-bottom: 0.6854vw !important;
-    margin-top: 0.6854vw !important;
+    padding-bottom: 0.4854vw !important;
+    margin-top: 0.4854vw !important;
     width: 38.4896vw;
 }
 
@@ -1142,7 +1174,7 @@ margin: 5.208vw auto;
 .Container {
     display: none;
     justify-content: center;
-    margin-top: 4.271vw;
+    margin-top: 2.271vw;
     /* padding-top: 13.458vw; */
     /* padding-bottom: 5.208vw; */
     /* margin-top: 4.6875vw; */
@@ -1191,7 +1223,6 @@ ul li {
 .textContainer {
     margin-left: 0.625vw;
 }
-
 /* <!-- 风采展示style --> */
 
 .LastContainer {
@@ -1215,33 +1246,33 @@ ul li {
     margin-left: 0.8333vw;
 }
 
-::-webkit-scrollbar {
+ ::-webkit-scrollbar {
     width: 14px;
     height: 14px;
 }
 
-::-webkit-scrollbar-track,
-::-webkit-scrollbar-thumb {
+ ::-webkit-scrollbar-track,
+ ::-webkit-scrollbar-thumb {
     border-radius: 999px;
     border: 5px solid transparent;
 }
 
-::-webkit-scrollbar-track {
+ ::-webkit-scrollbar-track {
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2) inset;
 }
 
-::-webkit-scrollbar-thumb {
+ ::-webkit-scrollbar-thumb {
     min-height: 20px;
     background-clip: content-box;
     box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.2) inset;
 }
 
-::-webkit-scrollbar-corner {
+ ::-webkit-scrollbar-corner {
     background: transparent;
 }
 
 .LastContainer {
-    padding-top: 6.417vw;
+    padding-top: 3.417vw;
     display: none;
     width: 90%;
     margin: 0 auto;
@@ -1275,7 +1306,6 @@ ul li {
 .second {
     margin-left: 2.917vw;
 }
-
 /* .QRContainer :nth-child(2){
 margin-left: 56.006px;
 } */
@@ -1348,12 +1378,3 @@ margin-left: 56.006px;
     align-items: center;
 }
 
-/* .News{
-position: absolute;
-left: -1920px;
-z-index: -1;
-}
-.Container{
-position: absolute;
-z-index: -1;
-}  */

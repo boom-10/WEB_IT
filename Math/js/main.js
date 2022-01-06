@@ -299,4 +299,78 @@ window.onload = function() {
             }
         }
     });
+        var all_a = document.getElementsByTagName('a');
+    console.log(all_a);
+    for (var i = 0; i < all_a.length; i++) {
+        all_a[i].target = "_blank";
+    }
+    var nav = document.querySelector('.wap_nav');
+    // var nav=document.getElementsByClassName('wap_nav')
+    console.log(nav);
+    var test = document.getElementsByClassName('wap_nav');
+    console.log(this.test);
+
+    function handleFontSize() {
+        console.log("handle被调用了");
+        // 设置网页字体为默认大小
+        window.WeixinJSBridge.invoke('setFontSizeCallback', { 'fontSize' : 0 });
+        // 重写设置网页字体大小的事件
+        window.WeixinJSBridge.on('menu:setfont', function() {
+            window.WeixinJSBridge.invoke('setFontSizeCallback', { 'fontSize' : 0 });
+        });
+    }
+
+    function banWechat() {
+        if (typeof WeixinJSBridge == "object" && typeof WeixinJSBridge.invoke == "function") {
+            console.log("我被调用了1");
+            handleFontSize();
+        } else {
+            console.log("我被调用了2");
+            if (document.addEventListener) {
+                document.addEventListener("WeixinJSBridgeReady", handleFontSize(), false);
+            } else if (document.attachEvent) {
+                document.attachEvent("WeixinJSBridgeReady", handleFontSize());
+                document.attachEvent("onWeixinJSBridgeReady", handleFontSize());  }
+        }
+    }
+    banWechat();
+
+
+    var lis2 = test[1].children;
+    var ToFooter = document.getElementsByClassName('ToFooter');
+    console.log(this.ToFooter);
+    var lis = nav.children; // 得到4个小li
+    // 2.循环注册事件
+    var Divwidth = 0;
+    var isTrue = true;
+    for (var i = 0; i < lis.length; i++) {
+        lis[i].onmouseover = function() {
+            this.children[2].style.display = 'block';
+            // var timer=setInterval(addOpacity(sub_nav),1000)
+        }
+        lis[i].onmouseout = function() {
+            this.children[2].style.display = 'none';
+        }
+        lis2[i].onmouseover = function() {
+            this.children[2].style.display = 'block';
+            // var timer=setInterval(addOpacity(sub_nav),1000)
+        }
+        lis2[i].onmouseout = function() {
+            this.children[2].style.display = 'none';
+        }
+    }
+    for (var i = 0; i < this.ToFooter.length; i++) {
+        ToFooter[i].onclick = function() {
+            console.log('footer');
+            var t = document.body.clientHeight;
+            window.scroll({
+                top: t,
+                left: 0,
+                behavior: 'smooth'
+            });
+        }
+    }
+
+    
+
 }
